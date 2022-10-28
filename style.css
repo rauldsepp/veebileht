@@ -1,0 +1,45 @@
+body {
+    background-color: palegoldenrod;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}  
+
+h1 {
+    box-shadow: 
+    0px 5px 0px 0px brown, 
+    0px 10px 0px 0px palegoldenrod, 
+    0px 20px 0px 0px brown,
+    0px 25px 0px 0px palegoldenrod, 
+    0px 40px 0px 0px brown;
+    padding-bottom: 2px;
+}
+
+p {
+    padding-top: 10px;
+    color: purple;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+img {
+    border-radius: 50%;
+    border: 10px solid orange;
+    width: 400px;    
+}
+
+img:hover {
+    width: 300px;
+  }
